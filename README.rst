@@ -29,7 +29,7 @@ change the title of your terminal anyway, it does not disturb your normal
 working flow.
 
 You can still customize your titlestring using the ``g:vimtip_titlestring``
-variable. It defaults to::
+variable. Use ``{tip}`` to place the tip where you want it. It defaults to::
 
 	let g:vimtip_titlestring = "%<%F%={tip}"
 
