@@ -28,8 +28,10 @@ addition, the tip changes every time you switch windows. Since this would
 change the title of your terminal anyway, it does not disturb your normal
 working flow.
 
-You can still customize your titlestring using the ``let g:vimtip_titlestring``
-variable.
+You can still customize your titlestring using the ``g:vimtip_titlestring``
+variable. It defaults to::
+
+	let g:vimtip_titlestring = "%<%F%={tip}"
 
 Have fun.
 
