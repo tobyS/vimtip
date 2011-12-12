@@ -2,7 +2,7 @@
 " 
 " Configuration:
 "   let g:vimtip_tips = ["Use tips of the day!", "Make more useful stuff","Be cool!"]
-"   let g:vimtip_titlestring = "%<%F%={tip}"
+"   let g:vimtip_titlestring = "%<%f%={tip}"
 "
 " Assign vimtip#NextTip() to an event of your choice, e.g.
 "
@@ -17,7 +17,7 @@ if (!exists('g:vimtip_tips'))
 endif
 
 if (!exists('g:vimtip_titlestring'))
-	let g:vimtip_titlestring = "%<%F%={tip}"
+	let g:vimtip_titlestring = "%<%f%={tip}"
 endif
 
 func! vimtip#SetTip()
